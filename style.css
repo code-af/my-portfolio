@@ -1,0 +1,31 @@
+html{
+  scroll-behavior: smooth !important;
+}
+.form-control::placeholder {
+    color: darkgray;
+}
+.form-control:focus{
+    outline: none;
+    border-color: black;
+    box-shadow: 0 0 5px black;
+}
+.scroll-offset{
+  scroll-margin-top: 60px;
+}
+/*.row {
+  background-color: red;
+}
+.col-md-6 {
+  background-color: blue;
+}
+
+body {
+    overflow-x: hidden;
+}
+* {
+  outline: 1px solid red;
+}/*
+
+                <a  href="#top" class="ml-auto btn bg-dark-subtle text-black" style="text-decoration: none;" >Back to Top
+                    <img src="images/top.png" style="height:2em;" >
+                </a>

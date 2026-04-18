@@ -1,0 +1,267 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio</title>
+    <link rel="icon" type="image/png" href="https://media.licdn.com/dms/image/v2/D5603AQFxny3ozl71xQ/profile-displayphoto-shrink_200_200/profile-displayphoto-shrink_200_200/0/1720609022834?e=1776297600&v=beta&t=fk5RGjCV8LiBYhaqng6RLA_f8Ki8vCwhee3yC1Fw8vU">   
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
+    <link href="style.css" type="text/css" rel="stylesheet">
+</head>
+<body>
+    <header class="bg-dark-subtle" style="position: fixed; width: 100%; z-index: 1;">
+        <div class="container-fluid">
+            <div class="row  p-3 bg-dark-subtle">
+                <div class="col-6 col-md-6">
+                    <h3>Afsal S.S.</h3>
+                </div>
+                <div class="col-6 col-md-6">
+                    <nav class="navbar navbar-expand-lg">
+                    <div class="container-fluid">
+                        <button class="navbar-toggler ms-auto" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                        <span class="navbar-toggler-icon"></span>
+                        </button>
+                        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                        <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                            <li class="nav-item">
+                            <a class="nav-link active " aria-current="page" href="#projects">Projects</a>
+                            <li class="nav-item">
+                            <a class="nav-link active " aria-current="page" href="#certs">Certificates</a>
+                            </li>
+                            <li class="nav-item">
+                            <a class="nav-link active" href="#enquire">Enquiries</a>
+                            </li>
+                            <li class="nav-item dropdown">
+                            <a class="nav-link active dropdown-toggle " href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                                See more
+                            </a>
+                            <ul class="dropdown-menu bg-dark-subtle">
+                                <li><a class="dropdown-item bg-dark-subtle " href="https://github.com/code-af/" target="_blank">My Github</a></li>
+                                <li><a class="dropdown-item bg-dark-subtle " href="https://www.linkedin.com/in/afsal-ss-2a28b5318" target="_blank">My Linkedin</a></li>
+                                <li><hr class="dropdown-divider"></li>
+                                <li><a class="dropdown-item bg-dark-subtle " href="mailto:afsalsalsal+spam@proton.me" target="_blank">Contact me</a></li>
+                            </ul>
+                            </li>
+                        </ul>
+                        <form class="d-flex" role="search" onsubmit="searchPage(event)">
+                            <input id="searchInput" class="form-control me-2 bg-dark-subtle text-black" type="search" placeholder="Search" aria-label="Search"/>
+                            <button class="btn btn-outline-light" type="submit" onclick="searchPage()">Search</button>
+                        </form>
+                        </div>
+                    </div>
+                    </nav>
+                </div>
+            </div>
+        </div>
+    </header>
+    <section id="top" class="p-3">
+        <div class="container-fluid">
+            <div class="row align-items-center" style="padding-top: 6em;">
+                <div class="col-md-4">
+                    <img src="assets/my_pic.jpg" class="img-fluid rounded-circle">
+                </div>
+                <div class="col-md-8 mr-auto">
+                    <h5 class="mt-3">Cybersecurity enthusiast and an aspiring Cybersecurity professional.<br>Kerala, India.</h5>
+                    <figure class="mt-4">
+                        <blockquote class="blockquote">
+                            <p class="fs-6 fst-italic fw-bold">"The quieter you become, the more you are able to hear".</p>
+                        </blockquote>
+                        <figcaption class="blockquote-footer">
+                            A wise person
+                        </figcaption>
+                    </figure>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="projects" class="p-2 bg-dark-subtle scroll-offset">
+        <div class="container-fluid p-3">
+            <h1 class="text-center">Rookie Projects</h1>
+            <div class="row">
+                <div class="col-12 col-md-4 d-flex justify-content-center">
+                    <div class="card text-center mt-3" style="width: 18rem;">
+                        <img class="img-fluid rounded-corners card-img-top mx-auto mt-3"
+                        src="assets/calculator-fill.svg"
+                        alt="calculator icon" style="max-width: 100px">
+                        <div class="card-body">
+                            <h5 class="card-title">Calculator App</h5>
+                            <p class="card-text">This is one of my earlier webdesigning project about a simple web based calculator.</p>
+                            <a href="https://github.com/code-af/calculator-js" class="btn bg-dark-subtle" target="_blank">visit</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-12 col-md-4 d-flex justify-content-center">
+                    <div class="card text-center mt-3" style="width: 18rem;">
+                        <img class="img-fluid rounded-corners card-img-top mx-auto mt-3"
+                        src="assets/fb.png"
+                        alt="Facebook icon" style="max-width: 100px">
+                        <div class="card-body">
+                            <h5 class="card-title">Facebook index page UI</h5>
+                            <p class="card-text">This is based on the current facebook webpage UI clone i made with just HTML and CSS.</p>
+                            <a href="https://github.com/code-af/fb-ui_page" class="btn bg-dark-subtle" target="_blank">visit</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-12 col-md-4 d-flex justify-content-center">
+                    <div class="card text-center mt-3" style="width: 18rem;">
+                        <img class="img-fluid rounded-corners card-img-top mx-auto mt-3"
+                        src="assets/programming.png"
+                        alt="Coding icon" style="max-width: 100px">
+                        <div class="card-body">
+                            <h5 class="card-title">Rock Paper Scissor game</h5>
+                            <p class="card-text">A rock-paper-scissor game i made a while back for fun when i started my journey in coding with python.</p>
+                            <a href="https://github.com/code-af/Python_beginner_projects/blob/main/rps.py"
+                             class="btn bg-dark-subtle" target="_blank">visit</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="p-2 bg-dark-subtle">
+        <div class="container-fluid p-3">
+            <h1 class="text-center">Cybersecurity Projects</h1>
+            <div class="row">
+                <div class="col-12 col-md-4 d-flex justify-content-center">
+                    <div class="card text-center mt-3" style="width: 18rem;">
+                        <img class="img-fluid rounded-corners card-img-top mx-auto mt-3"
+                        src="assets/network-device.png"
+                        alt="Network icon" style="max-width: 100px">
+                        <div class="card-body">
+                            <h5 class="card-title">Network Port-Scanner</h5>
+                            <p class="card-text">This is a simple python based port scanner made with python socket library and threading.</p>
+                            <a href="https://github.com/code-af/python-port_scanner" class="btn bg-dark-subtle" target="_blank">visit</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-12 col-md-4 d-flex justify-content-center">
+                    <div class="card text-center mt-3" style="width: 18rem;">
+                        <img class="img-fluid rounded-corners card-img-top mx-auto mt-3"
+                        src="assets/password.png"
+                        alt="Password icon" style="max-width: 100px">
+                        <div class="card-body">
+                            <h5 class="card-title">Password Generator</h5>
+                            <p class="card-text">Python based password generator, you can generate strong passwords locally from your terminal.</p>
+                            <a href="https://github.com/code-af/python-password-generator" class="btn bg-dark-subtle" target="_blank">visit</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-12 col-md-4 d-flex justify-content-center">
+                    <div class="card text-center mt-3" style="width: 18rem;">
+                        <img class="img-fluid rounded-corners card-img-top mx-auto mt-3"
+                        src="assets/notes_icon.png"
+                        alt="Notes icon" style="max-width: 100px">
+                        <div class="card-body">
+                            <h5 class="card-title">Setting up VMs</h5>
+                            <p class="card-text">You can view my notes and learn about how to setup Cybersecurity labs for your works.</p>
+                            <a href="https://www.notion.so/Setting-Up-VMs-22c7c969dbe3808285b2eed693580814?source=copy_link"
+                             class="btn bg-dark-subtle" target="_blank">visit</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+    </section>
+    <section id="certs" class="bg-dark-subtle bg-gradient scroll-offset">
+        <div class="container-fluid p-4">
+            <h1 class="text-center">Certificates and Achievements</h1>
+            <div class="row">
+                <div class="col-12 col-md-4 mt-3 d-flex justify-content-center">
+                    <div class="card mt-3" style="width: 25rem;">
+                        <img class="img-fluid rounded-corners card-img-top mx-auto" 
+                        src="assets/tcmprogramming_cert.png" style="height: 16em; width: 25em;">
+                    </div>
+                </div>
+                <div class="col-12 col-md-4 mt-3 d-flex justify-content-center">
+                    <div class="card mt-3" style="width: 25rem;">
+                        <img class="img-fluid rounded-corners card-img-top mx-auto"
+                        src="assets/tcm_linuxcert.png" style="height: 16em; width: 25em;">
+                    </div>
+                </div>
+                <div class="col-12 col-md-4 mt-3 d-flex justify-content-center">
+                    <div class="card mt-3" style="width: 25rem;">
+                        <img class="img-fluid rounded-corners card-img-top mx-auto"
+                        src="assets/thm2024_cert.png" style="height: 16em;">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    
+    <section id="enquire" class="bg-dark-subtle bg-gradient scroll-offset">
+        <div class="container-fluid p-4">
+            <h2 class="text-center">Contact below for any enquiry</h2>
+            <div class="row">
+                <div class="mb-3 col-md-6">
+                    <label for="exampleFormControlInput1" class="form-label">First Name</label>
+                    <input type="text" class="form-control" id="exampleFormControlInput1" placeholder="First Name">
+                    </div>
+                <div class="mb-3 col-md-6">
+                    <label for="exampleFormControlInput1" class="form-label">Last Name</label>
+                    <input type="text" class="form-control" id="exampleFormControlInput1" placeholder="Last Name">
+                </div>
+                <div class="mb-3 col-md-6">
+                    <label for="exampleFormControlInput1" class="form-label">Email Address</label>
+                    <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="Email Address">
+                </div>
+                <div class="mb-3 col-md-6">
+                    <label for="exampleFormControlInput1" class="form-label">Phone Number</label>
+                    <input type="tel" class="form-control" id="exampleFormControlInput1" placeholder="Phone Number">
+                </div>
+                <div class="mb-3 col-md-12">
+                    <label for="exampleFormControlTextarea1" class="form-label">Add your comments below</label>
+                    <textarea class="form-control" id="exampleFormControlTextarea1" cols="30" rows="10" placeholder="Start typing here..."></textarea>
+                </div>
+                <div class="mb-3 col-md-12 text-center">
+                    <button type="submit" class="btn btn-primary mb-3 btn-outline-light btn-dark">Submit Message</button>
+                </div>
+                
+            </div>
+        </div>
+        <hr class="my-0">
+    </section>
+    <footer class="bg-dark-subtle bg-gradient">
+        <div class="container-fluid">
+            <div class="row text-center pb-5">
+                <div class="col-md-2 mt-5">
+                    <a href="assets/copyright-terms.pdf" target="_blank" style="text-decoration: none;color: darkslategrey;">Aphsolution 
+                        <img src="assets/copyright.png" style="height: 1em;"> 2026</a>
+                </div>
+                <div class="col-md-2 mt-2">
+                    <a href="https://instagram.com" target="_blank" title="Instagram"  style="text-decoration: none;">
+                        <img src="assets/insta.png" style="height: 2em;"></a>
+                </div>
+                <div class="col-md-2 mt-2">
+                    <a href="https://facebook.com" target="_blank" title="Facebook"  style="text-decoration: none;">
+                        <img src="assets/fb.png" style="height: 2em;"></a>
+                </div>
+                <div class="col-md-2 mt-2">
+                    <a href="https://x.com" target="_blank" title="Twitter"  style="text-decoration: none;">
+                        <img src="assets/twitter.png" style="height: 2em;"></a>
+                </div>
+                <div class="col-md-2 mt-2">
+                    <a href="https://pinterest.com" target="_blank" title="Pinterest"  style="text-decoration: none;">
+                        <img src="assets/pinterest.png" style="height: 2em;"></a>
+                </div>
+                <div class="col-md-2 mt-2">
+                    <a href="https://youtu.be/QDia3e12czc?si=3bkC0yA-Zk5EQy9N" target="_blank" title="Youtube"  style="text-decoration: none;">
+                        <img src="assets/youtube.png" style="height: 2em;"></a>
+                </div>
+                <div class="col-md-2 mt-5 mx-auto">
+                    <a  href="#top" class="ml-auto btn bg-dark-subtle text-black" style="text-decoration: none;" >Back to Top
+                    <img src="assets/top.png" style="height:1em;" >
+                </a>
+                </div>
+            </div>
+        </div>
+    </footer>
+    
+<script src="https://code.jquery.com/jquery-4.0.0.js" integrity="sha256-9fsHeVnKBvqh3FB2HYu7g2xseAZ5MlN6Kz/qnkASV8U=" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js" integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.min.js" integrity="sha384-G/EV+4j2dNv+tEPo3++6LCgdCROaejBqfUeNjuKAiuXbjrxilcCdDz6ZAVfHWe1Y" crossorigin="anonymous"></script>
+<script src="script.js"></script>
+</body>
+</html>
